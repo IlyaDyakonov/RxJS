@@ -1,4 +1,42 @@
-.test {
+.messages {
+  width: 700px;
   font-size: 20px;
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+}
+
+.email {
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  color: rgb(218, 1, 1);
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #f700ff;
+}
+
+.subject {
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  color: rgb(218, 1, 1);
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #f700ff;
+}
+
+.date {
+  width: 220px;
+  height: 40px;
+  font-size: 20px;
+  color: rgb(218, 1, 1);
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #f700ff;
 }

@@ -12,7 +12,7 @@ export function createRandomMessage() {
   };
 }
 
-const MESSAGES = Array.from({ length: 20 }, () => createRandomMessage());
+const MESSAGES = Array.from({ length: 5 }, () => createRandomMessage());
 
 const incomingDiv = document.querySelector('.incoming');
 
