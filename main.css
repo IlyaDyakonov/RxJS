@@ -1,0 +1,53 @@
+.incoming {
+  font-size: 25px;
+  padding: 20px;
+}
+
+.messages {
+  width: 720px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #000000; */
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  margin-top: 10px;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid #000000;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.subject {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
