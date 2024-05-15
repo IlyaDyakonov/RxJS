@@ -1,42 +1,52 @@
+.incoming {
+  font-size: 25px;
+  padding: 20px;
+}
+
 .messages {
-  width: 700px;
+  width: 720px;
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
+  border-right: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  border-left: 1px solid #000000;
+  margin-top: 10px;
 }
 
 .message {
   display: flex;
   flex-direction: row;
+  border-top: 1px solid #000000;
 }
 
 .email {
-  width: 220px;
+  display: flex;
+  align-items: center;
+  width: 350px;
   height: 40px;
   font-size: 20px;
-  color: rgb(218, 1, 1);
   margin-left: 10px;
   border-radius: 5px;
-  border: 1px solid #f700ff;
 }
 
 .subject {
-  width: 220px;
+  display: flex;
+  align-items: center;
+  width: 170px;
   height: 40px;
   font-size: 20px;
-  color: rgb(218, 1, 1);
   margin-left: 10px;
   border-radius: 5px;
-  border: 1px solid #f700ff;
 }
 
 .date {
-  width: 220px;
+  display: flex;
+  align-items: center;
+  width: 150px;
   height: 40px;
   font-size: 20px;
-  color: rgb(218, 1, 1);
   margin-left: 10px;
   border-radius: 5px;
-  border: 1px solid #f700ff;
 }
