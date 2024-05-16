@@ -5,7 +5,7 @@ import { mergeMap } from 'rxjs/operators';
 
 
 export function fetchMessages() {
-  return ajax.getJSON('http://localhost:9000/');
+  return ajax.getJSON('https://ilyadyakonov.github.io/RxJS/');
 }
 
 const updates$ = interval(5000);
