@@ -5,7 +5,7 @@ import { mergeMap } from 'rxjs/operators';
 
 
 export function fetchMessages() {
-  return ajax.getJSON('https://ilyadyakonov.github.io/RxJS/');
+  return ajax.getJSON('http://localhost:9000/');
 }
 
 const updates$ = interval(5000);
@@ -16,8 +16,8 @@ updates$
   )
   .subscribe({
     next: () => {
-        const messageElement = createMessage();
-        document.querySelector('.messages').prepend(messageElement);
+      const messageElement = createMessage();
+      document.querySelector('.messages').prepend(messageElement);
     }
   });
 
@@ -44,7 +44,6 @@ export function createMessage() {
   messageDiv.appendChild(subjectDiv);
   messageDiv.appendChild(dateDiv);
 
-  // messagesDiv.appendChild(messageDiv)
   return messageDiv;
 }
 
