@@ -1,4 +1,4 @@
-
+[![Build status](https://ci.appveyor.com/api/projects/status/430o9xag4evs1o4h?svg=true)](https://ci.appveyor.com/project/IlyaDyakonov/rxjs)
 
 
 # Домашнее задание к занятию "11. RxJS"
